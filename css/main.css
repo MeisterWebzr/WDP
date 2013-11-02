@@ -22,7 +22,7 @@ h2{
 h3{
 	color: blue;
 	margin: 0 auto;
-	border-bottom: 1px dotted grey;
+	border-bottom: 1px dotted #eee;
 }
 
 
@@ -113,37 +113,38 @@ body ul{
 /*---------- Table styles ----------*/
 
 caption{
-	background: blue;
-	color: red;
+	background: #eee;
+	color: black;
 	padding: .2em;
 	font-size: 1.2em;
-	float: left;
+	border: 1px solid black;
 }
 
 
 .legend{
-	background: grey;
+	background: #eee;
 	border: 1px solid black;
 	padding: .5em;
-	color: white;
+	color: black;
 }
 table{
     width: 570px;
 	margin: 1em auto;
 	padding: .3em;
 	height: 12em;
+	background: #eee;
+	border: 1px solid black;
+	border-collapse:collapse;
 	}
 	
 td{
 	padding: .3em;
-	border-left: 1px solid grey;
-	border-right: 1px solid grey;
+	border: 1px solid black;
 	color: grey;
 }
 
 th{
-	border: 2px solid grey;
-	border-bottom: 2px solid grey;
+	border: 1px solid black;
 	color: black;
 	
 }
