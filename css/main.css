@@ -22,7 +22,7 @@ h2{
 h3{
 	color: blue;
 	margin: 0 auto;
-	border-bottom: 1px dotted white;
+	border-bottom: 1px dotted silver;
 }
 
 
@@ -102,11 +102,14 @@ body ul{
 /*---------- Table styles ----------*/
 
 caption{
-	background: #000;
-	color: #fff;
-	margin: 0 auto;
+	position: relative;
+	right: 13px;
+	background: silver;
+	color: green;
+	margin: 1em auto;
 	padding: .2em;
-	float: left;
+	width: 105%;
+	
 }
 
 
@@ -158,7 +161,6 @@ th{
 	width: 100%;
 	padding: .3em;
 	margin: 0 auto;
-	text-align: right;
 }
 
 .targeta{
