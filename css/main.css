@@ -51,7 +51,18 @@ body ul{
 
 .mainheader{
 	background: #eee;
+	width: 100%;
+	border: 1px solid yellow;
+	text-align: right;
 }
+
+
+/*---------- Banner Images -----------*/
+
+.banner{
+	float:right;
+}
+
 /*---------- Wrapper styles ----------*/
 
 .wrapper{ 
@@ -64,19 +75,18 @@ body ul{
 
 /*---------- Client info ----------*/
 .main{
-	width: 40%;
+	width: 45%;
 	height: 12em;
 	margin: 1em;
-	/*border-bottom: 2px solid orange;*/
-	color: blue;
-	float: left;
+	float: right;
 }
 
 
 .mainwrapper{
-	padding: .5em;
+	width: 55%;
 	height: 18em;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid silver;
+	background: grey;
 }
 
 
@@ -84,7 +94,7 @@ body ul{
 .analysischart{
 	float: right;
 	height: 18em;
-	width: 60%;
+	width: 64%;
 }
 
 
@@ -94,6 +104,9 @@ body ul{
 caption{
 	background: #000;
 	color: #fff;
+	margin: 0 auto;
+	padding: .2em;
+	float: left;
 }
 
 
@@ -104,20 +117,22 @@ caption{
 	color: white;
 }
 table{
-	margin: 1em auto;
+    width: 570px;
+	margin: 1.5em auto;
+	padding: .3em;
 	height: 12em;
 	}
 	
 td{
 	padding: .3em;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
 	color: grey;
 }
 
 th{
 	border: 2px solid black;
-	border-bottom: 1px solid white;
+	border-bottom: 2px solid white;
 	color: red;
 	
 }
@@ -138,12 +153,19 @@ th{
 	
 /*---------- Target Audience ----------*/
 
+.maintarget{
+	background: silver;
+	width: 100%;
+	padding: .3em;
+	margin: 0 auto;
+	text-align: right;
+}
 
 .targeta{
 	width: 35%;
 	margin: 0 auto;
 	padding: .5em;
-	border-right: 1px solid grey;
+	border-right: 1px solid silver;
 	text-align: justify;
 	overflow: hidden;
 }	
@@ -153,6 +175,12 @@ ol li{
 	margin: 0 auto;
 	text-align: left;
 	color: black;
+}
+
+.container{
+	border: 1px solid orange;
+	margin-bottom: 1em;
+	padding: .5em;
 }
 
 	
