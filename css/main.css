@@ -1,0 +1,171 @@
+html{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	padding: 1em;
+	font: 14px Arial;
+	
+}
+/*---------- Heading styles ----------*/
+h1{
+	padding: .5em;
+	margin: 0 auto;
+	color: blue;
+}
+
+h2{
+	margin: 0 auto;
+	color: red;
+	overflow: hidden;
+}
+
+h3{
+	color: blue;
+	margin: 0 auto;
+	border-bottom: 1px dotted white;
+}
+
+
+/*---------- Body styles ----------*/
+body{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	color: #000;
+	
+}
+
+body ul{
+	list-style: none;
+	margin: 0 auto;
+	padding: .5em;
+}
+
+.heading{
+	width: 100%;
+	border-top: 2px solid blue;
+	/*border-bottom: 1.5px solid orange;*/
+	background: #eee;
+	color: #fff;
+}
+
+.mainheader{
+	background: #eee;
+}
+/*---------- Wrapper styles ----------*/
+
+.wrapper{ 
+	width: 100%;
+	height: auto;
+	margin: 2em auto;
+	text-align: justify;
+}
+
+
+/*---------- Client info ----------*/
+.main{
+	width: 40%;
+	height: 12em;
+	margin: 1em;
+	/*border-bottom: 2px solid orange;*/
+	color: blue;
+	float: left;
+}
+
+
+.mainwrapper{
+	padding: .5em;
+	height: 18em;
+	border-bottom: 2px solid black;
+}
+
+
+/*---------- table background ----------*/
+.analysischart{
+	float: right;
+	height: 18em;
+	width: 60%;
+}
+
+
+
+/*---------- Table styles ----------*/
+
+caption{
+	background: #000;
+	color: #fff;
+}
+
+
+.legend{
+	background: grey;
+	border: 1px solid black;
+	padding: .5em;
+	color: white;
+}
+table{
+	margin: 1em auto;
+	height: 12em;
+	}
+	
+td{
+	padding: .3em;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	color: grey;
+}
+
+th{
+	border: 2px solid black;
+	border-bottom: 1px solid white;
+	color: red;
+	
+}
+
+
+/*---------- Site Intent ----------*/
+.intent{ 
+	clear: both;
+	/*border: 1px dotted red;*/
+	margin: 0 auto;
+	padding: .5em;
+	width: 60%;
+	float: right;
+	color: black;
+	
+	}
+	
+	
+/*---------- Target Audience ----------*/
+
+
+.targeta{
+	width: 35%;
+	margin: 0 auto;
+	padding: .5em;
+	border-right: 1px solid grey;
+	text-align: justify;
+	overflow: hidden;
+}	
+
+
+ol li{
+	margin: 0 auto;
+	text-align: left;
+	color: black;
+}
+
+	
+/*---------- Footer styles ----------*/
+footer{
+	color: #fff;
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+	background: #000;
+	
+}
+
+footer p{
+	padding: .5em;
+}
