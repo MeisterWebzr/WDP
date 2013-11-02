@@ -169,23 +169,28 @@ th{
 	background: silver;
 	width: 100%;
 	padding: .3em;
-	margin: 0 auto;
-	text-align: right;
+	margin: 0 0 1em auto;
+	text-align: left;
+	
+}
+
+.photogallery{
+	max-width: 100%;
+	
 }
 
 .targeta{
 	width: 38%;
 	margin: 0 auto;
 	padding: .5em;
-	border-right: 1px solid silver;
-	text-align: justify;
+	text-align: left;
 	overflow: hidden;
 }	
 
 
 ol li{
 	margin: 0 auto;
-	text-align: left;
+	text-align: justify;
 	color: black;
 }
 
