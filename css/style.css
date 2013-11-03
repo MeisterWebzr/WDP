@@ -1,40 +1,45 @@
-@import "css/normalize.css";
-
 /*
-html{
-	width: 996px;
-	height: auto;
-	margin: 0 auto;
-	padding: 1em;
-	font: 14px Arial;
-	border: 1px solid black;
-	
-}
+Responsive 996px grid system ~ Style CSS.
+Copyright 2013, Josh Cope
+*/
 
-body{
-	width: 95%;
-	height: 52em;
-	margin: 0 auto;
-	padding: .5em;
-	color: #000;
-	border: 1px solid red;
-}*/
+/* =============================================================================
+   Site Styles
+   ========================================================================== */
 
-/*---------- Navigation ----------*/
-nav{
-	
-	max-width: 65%;
-	height: auto;
-}
+/* =============================================================================
+   Page Styles
+   ========================================================================== */
 
-nav li{
-	margin: 0 auto;
-	padding: .5em;
-	list-style-type: none;
-	
-}
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
 
-nav a{
-	
-	text-decoration: none;
-}
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {}
+
+
+/* =============================================================================
+   Font-Face
+   ========================================================================== */
+/* This is the proper syntax for an @font-face file
+
+/* @font-face {
+font-family: 'FontName';
+src: url('../fonts/FontName.eot');
+src: url('../fonts/FontName.eot?iefix') format('embedded-opentype'),
+url('../fonts/FontName.woff') format('woff'),
+url('../fonts/FontName.ttf') format('truetype'),
+url('../fonts/FontName.svg#FontName') format('svg');
+font-weight: normal;
+font-style: normal; }
+*/
