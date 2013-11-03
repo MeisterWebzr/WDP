@@ -1,8 +1,11 @@
+@import "css/normalize.css";
+
+/*
 html{
 	width: 996px;
 	height: auto;
 	margin: 0 auto;
-	padding: .3em;
+	padding: 1em;
 	font: 14px Arial;
 	border: 1px solid black;
 	
@@ -15,7 +18,7 @@ body{
 	padding: .5em;
 	color: #000;
 	border: 1px solid red;
-}
+}*/
 
 /*---------- Navigation ----------*/
 nav{
