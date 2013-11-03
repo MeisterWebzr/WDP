@@ -1,0 +1,37 @@
+html{
+	width: 996px;
+	height: auto;
+	margin: 0 auto;
+	padding: .3em;
+	font: 14px Arial;
+	border: 1px solid black;
+	
+}
+
+body{
+	width: 95%;
+	height: 52em;
+	margin: 0 auto;
+	padding: .5em;
+	color: #000;
+	border: 1px solid red;
+}
+
+/*---------- Navigation ----------*/
+nav{
+	
+	max-width: 65%;
+	height: auto;
+}
+
+nav li{
+	margin: 0 auto;
+	padding: .5em;
+	list-style-type: none;
+	
+}
+
+nav a{
+	
+	text-decoration: none;
+}
