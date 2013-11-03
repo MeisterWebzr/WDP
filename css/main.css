@@ -51,6 +51,10 @@ body ul{
 	color: #fff;
 }
 
+.heading a{
+	text-decoration: none;
+}
+
 .mainheader{
 	width: 35%;
 	margin: 0 auto;
@@ -59,6 +63,45 @@ body ul{
 }
 
 
+/*---------- Navigation Links ---------*/
+
+nav{
+	float: right;
+	width: 75%;
+	list-style-type: none;
+	margin: .5em auto;
+	padding: 1em;
+}
+
+nav li{
+	text-decoration: none;
+	height: auto;
+	display: inline;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 1em;
+}
+
+nav a:hover{
+	background-color: red;
+	
+}
+
+nav a:link{
+	color: blue;
+}
+
+nav a:active{
+	color: blue;
+}
+
+nav a:visited{
+	color:black;
+}
 /*---------- Banner Images -----------*/
 
 .banner{
