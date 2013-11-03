@@ -71,6 +71,7 @@ nav{
 	list-style-type: none;
 	margin: .5em auto;
 	padding: 1em;
+	
 }
 
 nav li{
@@ -79,6 +80,7 @@ nav li{
 	display: inline;
 	margin: 0 auto;
 	padding: 1em;
+	padding-top:2em;
 }
 
 nav a{
@@ -87,7 +89,7 @@ nav a{
 }
 
 nav a:hover{
-	background-color: red;
+	background-color: grey;
 	
 }
 
@@ -100,7 +102,7 @@ nav a:active{
 }
 
 nav a:visited{
-	color:black;
+	color:red;
 }
 /*---------- Banner Images -----------*/
 
