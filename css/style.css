@@ -54,22 +54,51 @@ Copyright 2013, Josh Cope
    	
    }
    
+   
+ /* ============================================================================
+    events.html Home Page Styles
+    ========================================================================== */
+   #eventbox{
+   		float: left;
+   		display: inline;
+   }
+   
+ /* ============================================================================
+    warranty.html Home Page Styles
+    ========================================================================== */
+ 
+ 
+ 
+ 
+ 
+ /* ============================================================================
+    dealers.html Home Page Styles
+    ========================================================================== */
+    
+
+
+ /* ============================================================================
+    contact.html Home Page Styles
+    ========================================================================== */   
+    
 
 /* =============================================================================
    Media Queries
    ========================================================================== */
 
-/* Tablet Portrait size to Base 996px */
+
+/* Tablet Portrait size to Base 996px
 @media only screen and (min-width: 768px) and (max-width: 995px) {}
 
-/* All Mobile Sizes */
+/* All Mobile Sizes 
 @media only screen and (max-width: 767px) {}
 
-/* Mobile Landscape Size to Tablet Portrait */
+/* Mobile Landscape Size to Tablet Portrait 
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
-/* Mobile Portrait Size to Mobile Landscape Size */
+/* Mobile Portrait Size to Mobile Landscape Size 
 @media only screen and (max-width: 479px) {}
+*/
 
 
 /* =============================================================================
