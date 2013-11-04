@@ -211,7 +211,6 @@ th{
 /*---------- Target Audience ----------*/
 
 .maintarget{
-	background: silver;
 	width: 100%;
 	padding: .3em;
 	margin: 0 0 1em auto;
@@ -240,7 +239,6 @@ ol li{
 }
 
 .container{
-	border: 1px solid orange;
 	margin-bottom: 1em;
 	padding: .5em;
 }
