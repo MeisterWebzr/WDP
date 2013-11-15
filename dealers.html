@@ -16,28 +16,30 @@
 		
 	
 		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 		
 	</head>
 	
 	<body>
-	
-	<div class="container">
-	
-	<header class="grid_4">
-				<img class="grid_2" src="images/logo.jpg" alt="SSR Motorsports" />
-	</header>
-			<nav class="grid_8">
-			 	<ul>
-			 		<li><a href="index.html">SSR</a></li>
-			 		<li><a href="dirtbikes.html">Dirt Bikes</a></li>
-			 		<li><a href="events.html">Events</a></li>
-			 		<li><a href="warranty.html">Warranty</a></li>
-			 		<li><a href="dealers.html">Online Dealers</a></li>
-			 		<li><a href="contact.html">Contact Us</a></li>
-				</ul>
-			</nav>
+			<div class="container">
 	
 			
+				
+				<header class="grid_12">
+					<img id="logo"class="grid_3" src="images/logo.png" alt="SSR Motorsports" />
+			      
+			      <div id='cssmenu'>
+			      		<ul>
+			      			<li><a href="index.html">SSR</a></li>
+			      			<li><a href="dirtbikes.html">Dirt Bikes</a></li>
+			      			<li><a href="events.html">Events</a></li>
+			      			<li><a href="warranty.html">Warranty</a></li>
+			      			<li><a href="dealers.html">Online Dealers</a></li>
+			      			<li><a href="contact.html">Contact Us</a></li>
+			      	</ul>
+			      </div>
+			  
+			    </header>			
 	
 	<article class="grid_8">
 	
@@ -45,47 +47,127 @@
 	 
 	
 			<p>SSR Motorsports and your selling dealer thank you for selecting one of our scooters or powersports products. Our commitment to you begins with a quality product and service. To make it easier to find your favorite SSR vehicle, we have complied a list of online dealers that are here to assist you with your SSR needs!</p>
+			
+			<form method="get" action="simpleform">
+			                         <!-- Company Information-->
+			                         <fieldset>
+			                         <legend>Tell us about you and your company</legend>
+			                                                  
+			                         <fieldset class="grid_10">
+			                                                    <legend>Company Information</legend>
+			                                                                  <p><label for="companyname">Company Name:</label>
+			                                                                          <input type="text" name="companyname" id="companyname" value="Meister"/>
+			                                                                  </p>
+			                                                                  <p><label for="companyphone">Phone Number:</label>
+			                                                                          <input type="text" name="companyphone" id="companyphone"/>
+			                                                                  </p>
+			                                                                  <p><label for="website">Website:</label>
+			                                                                          <input type="text" name="website" id="website"/>
+			                                                                  </p>
+			                                                                  <p><label for="employes"># of Employees</label>
+			                                                                          <input type="text" name="employes" id="employes"/>
+			                                                                  </p>
+			                                                                  <p><label for="address">Address</label>
+			                                                                          <input type="text" name="address" id="address"/>
+			                                                                  </p>
+			                                                                  <p><label for="year">Year Established</label>
+			                                                                          <input type="text" name="year" id="year"/>
+			                                                                  </p>
+			                                                 </fieldset>
+			                                                
+			                                                <!-- Personal Information -->
+			                                                <fieldset class="gird_10">
+			                                                         <legend>Personal Contact Information</legend>
+			                                                         <p><label for="title">Whats your position?</label>
+			                                                                <select name="title" id="title">
+			                                                                        <option>CEO</option>
+			                                                                        <option>President</option>
+			                                                                        <option>Partner</option>
+			                                                                        <option>Regional Manager</option>
+			                                                                        <option>Store Manager</option>
+			                                                                        <option>Sales Associate</option>
+			                                                                        <option>Secretary</option>
+			                                                            </select>
+			                                                        </p>
+			                                                        <p><label for="yourname">Full Name:</label>
+			                                                                <input type="text" name="yourname" id="yourname"/>
+			                                                        </p>
+			                                                
+			                                                        <p><label for="phonenumber">Phone Number:</label>
+			                                                                <input type="text" name="phonenumber" id="phonenumber"/>
+			                                                        </p>
+			                                                
+			                                                        <p><label for="email">Email Address:</label>
+			                                                                <input type="text" name="email" id="email"/>
+			                                                        </p>
+			                                                
+			                                                        <p><label for="eventdetails">Briefly describe your event details</label></p>
+			                                                        <p><textarea name="eventdetails" rows="7" cols="40" id="eventdetails"></textarea></p>
+			                                                
+			                                                </fieldset>
+			                                             <fieldset>   
+			                                                <!-- Terms Agreement Special Offer -->
+			                                                <p><label for="agree">I agree to be contacted with special offers in the future:</label>
+			                                                <input type="checkbox" name="agree" id="agree" checked="checked"/>
+			                                                </p>
+			                                                <p><input type="submit"/></p>
+			                                                
+			                                        </fieldset>
+			                                </form>
 	
     </article>
 	
 	<aside class="grid_4">
-		<img class="grid_4" src="images/highstyle-logo.jpg" alt="" />
-		<h1>HIGH STYLE MOTORING</h1>
-		
-		<img class="grid_4" src="images/psd.jpg" alt="" />	 
-		<h1>PowerSportsDistro.com</h1>
-		
-		<img class="grid_4" src="images/pitbike.gif" alt="" />
-		<h1>Pitbike usa</h1>
-		
-		<img class="grid_4" src="images/sgr.jpg" alt="" />
-		<h1>SSR Pit Bike USA</h1>
+		<img id="dri" class="grid_4" src="images/highstyle-logo.jpg" alt="" />
 		
 		
-		<img class="grid_4" src="images/xt.jpg" alt="" />	 
-		<h1>XT Powersports</h1> 
+		<img id="dri" class="grid_4" src="images/psd.jpg" alt="" />	 
 		
-		<img class="grid_4" src="images/adams.jpg" alt="" />
-		<h1>Adams Vintage Motorcycles</h1>
 		
-		<img class="grid_4" src="images/X-offroad.jpg" alt="" />	 
-		<h1>X-Offroad Powersports</h1>
+		<img id="dri" class="grid_4" src="images/pitbike.gif" alt="" />
 		
-		<img class="grid_4" src="images/motobuys.jpg" alt="" />
-		<h1>Motobuys</h1>
 		
-		<img class="grid_4" src="images/FAMILY-FUN-LOGO.jpg" alt="" />	 
-		<h1>FAMILY FUN POWERSPORTS</h1>
+		<img id="dri" class="grid_4" src="images/sgr.jpg" alt="" />
 		
-		<img class="grid_4" src="images/Killermotorsports.jpg" alt="" />
-		<h1>Killer Motorsports</h1>	
 		
-		<img class="grid_4" src="images/SGR.jpg" alt="" /> 
-		<h1>Staggs Global Racing</h1>
+		
+		<img id="dri" class="grid_4" src="images/xt.jpg" alt="" />	 
+		 
+		
+		<img id="dri" class="grid_4" src="images/adams.jpg" alt="" />
+		
+		
+		<img id="dri" class="grid_4" src="images/X-offroad.jpg" alt="" />	 
+		
+		
+		<img id="dri" class="grid_4" src="images/motobuys.jpg" alt="" />
+		
+		
+		<img id="dri" class="grid_4" src="images/FAMILY-FUN-LOGO.jpg" alt="" />	 
+		
+		
+		<img id="dri" class="grid_4" src="images/Killermotorsports.jpg" alt="" />
+			
+		
+		<img id="dri" class="grid_4" src="images/SGR.jpg" alt="" /> 
+		
 	</aside>
 	
 	
-			<footer class="grid_12">SSR Motorsports &copy; 2002-2013 SSRMotorsports.com All Rights Reserved</footer>
+	
+			<footer class="grid_12">
+			<h5 class="grid_7">SSR Motorsports &copy; 2002-2013 SSRMotorsports.com All Rights Reserved</h5>
+			
+			<div class="grid_4">
+			<ul class="footer_social">
+				<li><img src="images/Facebook.png" alt="Face Book" /></li>
+				<li><img src="images/Twitter.png" alt="Twitter" /></li>
+				<li><img src="images/Google.png" alt="Google" /></li>
+				<li><img src="images/LinkdIn.png" alt="LinkdIn" /></li>
+				<li><img src="images/Tube.png" alt="Tube" /></li>	
+			</ul>
+			</div>
+			</footer>
 			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 			<script src="js/scripts.js"></script>
 	

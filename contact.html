@@ -10,67 +10,96 @@
 	
 		<meta name="viewport" content="width=device-width">
 	
+		
+		<!-- Links -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/style.css">
-	
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/forms-min.css">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+		<!-- Scripts -->
 		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		
+		
 		
 	</head>
+		<div class="container">
 	
-	<body>
-	<div class="container">
-	<header class="grid_4">
-			<img src="images/logo.jpg" alt="" />
-	</header>
-			<nav class="grid_8">
-			 	<ul>
-			 		<li><a href="index.html">SSR</a></li>
-			 		<li><a href="dirtbikes.html">Dirt Bikes</a></li>
-			 		<li><a href="events.html">Events</a></li>
-			 		<li><a href="warranty.html">Warranty</a></li>
-			 		<li><a href="dealers.html">Online Dealers</a></li>
-			 		<li><a href="contact.html">Contact Us</a></li>
-				</ul>
-			</nav>
+				<header class="grid_12">
+					<img id="logo"class="grid_3" src="images/logo.png" alt="SSR Motorsports" />
+			      
+			      <div id='cssmenu'>
+			      		<ul>
+			      			<li><a href="index.html">SSR</a></li>
+			      			<li><a href="dirtbikes.html">Dirt Bikes</a></li>
+			      			<li><a href="events.html">Events</a></li>
+			      			<li><a href="warranty.html">Warranty</a></li>
+			      			<li><a href="dealers.html">Online Dealers</a></li>
+			      			<li><a href="contact.html">Contact Us</a></li>
+			      	</ul>
+			      </div>
+			    
+			  </header>
 	
-			
 	
 	<article class="grid_8">
 	
+			
+			<div id="hours">
 			<h2>We are open from Monday - Friday, 9AM-5:30PM</h3>
-			<img src="images/ssrhome.png" alt="" />
-			<ul>
+			<ul class="info">
 				<li>Customer Service: 562-926-2888 </li>
 	
 				<li>Fax: 562-926-6999</li> 
 	
-				<li>Customer service and all other general information, email: info@ssrmotorsports.com</li> 
+				<li>Customer: info@ssrmotorsports.com</li> 
 	
-				<li>For Technical Support please email: service@ssrmotorsports.com</li>
+				<li>Technical: service@ssrmotorsports.com</li>
 	
-				<li>For Dealer information please email: sales@ssrmotorsports.com</li>
+				<li>Dealer: sales@ssrmotorsports.com</li>
 	
-				<li>For Warranty information please email: warranty@ssrmotorsports.com</li>
+				<li>Warranty: warranty@ssrmotorsports.com</li>
 	
 			</ul>
-			
-			<h2 class="grid_4">Our mailing address:</h2>
-			
-		 		<ul>
-					<li>Attention: SSRMOTORSPORTS.COM 
-					<li>12825 Alondra Blvd</li> 
-	      			<li>Norwalk, CA 90650</li>
-	      		</ul> 
+			</div>
+				
+		<form class="pure-form pure-form-aligned">
+		    <fieldset>
+		    <legend>Tell us about you &amp; your company</legend>
+		        <div class="pure-control-group">
+		            <label for="name">Company name</label>
+		            <input id="name" type="text" placeholder="SSR Pitbikes">
+		        </div>
+		
+		        <div class="pure-control-group">
+		            <label for="password">Company address</label>
+		            <input id="password" type="password" placeholder="321 Motorsport Hwy">
+		        </div>
+		
+		        <div class="pure-control-group">
+		            <label for="email">Company Website</label>
+		            <input id="email" type="email" placeholder="www.Motorsports.com">
+		        </div>
+		
+		        <div class="pure-control-group">
+		            <label for="foo">Supercalifragilistic Label</label>
+		            <input id="foo" type="text" placeholder="Enter something here...">
+		        </div>
+		
+		        <div class="pure-controls">
+		            <label for="cb" class="pure-checkbox">
+		                <input id="cb" type="checkbox"> I've read the terms and conditions
+		            </label>
+		
+		            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+		        </div>
+		    </fieldset>
+		</form>
+		                             	
+		</article>
 	
-			<h2 class="grid_4">Shipping and Receiving: </h2>
-					
-				<ul>
-					<li>12825 Alondra Blvd.</li>
-					<li>Norwalk, CA 90650</li>
-				</ul>
-	</article>
 	
 	<aside class="grid_4">
 		
@@ -82,10 +111,22 @@
 		
 	</aside>
 
+		
 	
 	
+	<footer class="grid_12">
+	<h5 class="grid_7">SSR Motorsports &copy; 2002-2013 SSRMotorsports.com All Rights Reserved</h5>
 	
-	<footer class="grid_12">SSR Motorsports &copy; 2002-2013 SSRMotorsports.com All Rights Reserved</footer>
+	<div class="grid_4">
+	<ul class="footer_social">
+		<li><img src="images/Facebook.png" alt="Face Book" /></li>
+		<li><img src="images/Twitter.png" alt="Twitter" /></li>
+		<li><img src="images/Google.png" alt="Google" /></li>
+		<li><img src="images/LinkdIn.png" alt="LinkdIn" /></li>
+		<li><img src="images/Tube.png" alt="Tube" /></li>	
+	</ul>
+	</div>
+	</footer>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	<script src="js/scripts.js"></script>
 	
