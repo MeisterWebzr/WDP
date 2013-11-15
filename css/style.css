@@ -318,6 +318,12 @@ Copyright 2013, Josh Cope
     ========================================================================== */   
     
     
+    #contactads img{
+    	margin: 0 auto;
+    	padding: .5em;
+    	max-width: 80%;
+    }
+    
     #hours{
     	margin: 0 auto;
     	padding: .5em;
