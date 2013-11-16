@@ -226,7 +226,6 @@ Copyright 2013, Josh Cope
    
    #dirtbike_gallery ul{
    		list-style-type: none;
-   		background: red;
 		float: left;
    }
    
@@ -234,6 +233,7 @@ Copyright 2013, Josh Cope
    		margin: 0 auto;
    		padding: .5em;
    		display: inline;
+   		
    	
    }
    
@@ -310,9 +310,27 @@ Copyright 2013, Josh Cope
 	
 	margin: auto;
 	padding: .5em;
-	border-bottom: 1px solid #333;
 }
 
+
+#dealersrow img{
+	
+	margin: 3em auto;
+	padding: .5em;
+}
+
+#becomeadealer{
+	margin: 1em auto;
+	padding: .5em;
+	
+}
+
+#becomeadealer button{
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: rgb(66, 184, 221); /* this is a light blue */
+            }
  /* ============================================================================
     contact.html Home Page Styles
     ========================================================================== */   
