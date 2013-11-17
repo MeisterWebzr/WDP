@@ -11,7 +11,6 @@ Copyright 2013, Josh Cope
    html{
    	margin: 0 auto;
    	padding: .5em;
-   	background-image: url('ssr_bg.jpg');
    }
    
    
@@ -22,6 +21,7 @@ Copyright 2013, Josh Cope
    	margin: 0 auto;
    	padding: 0;
  	height: auto;
+ 	background-color: white;
    	}
    	
    	p, h1, h2, h3, h4, h5{
@@ -185,6 +185,16 @@ Copyright 2013, Josh Cope
   footer{
   	margin: 1em auto;
   	padding: .35em;
+  	border-top: 1px solid #333;
+  	background:
+  	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  	linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  	linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  	linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  	
+  	background-size: 20px 20px;
   }
 
 	.footer_social li{
@@ -231,10 +241,19 @@ Copyright 2013, Josh Cope
    
    #dirtbike_gallery li{
    		margin: 0 auto;
-   		padding: .5em;
    		display: inline;
-   		
-   	
+   }
+   
+   
+   #philosophy{
+   		border-top: 1px solid #333;
+   		border-bottom: 1px solid #333;
+   		background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
+   }
+   
+   #philosophy h3{
+   		text-align: center;
+   		color: blue;
    }
    
    
