@@ -4,19 +4,26 @@
 		<meta charset="utf-8">
 	
 		<title>SSR Motorsports | Home</title>
-		<meta name="description" content="">
-		<meta name="author" content="">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+		<meta name="Otto Burorughs" content="SSR Motorsport Template">
 	
-		<meta name="viewport" content="width=device-width">
 	
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/responsivemobilemenu.css" type="text/css"/>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/forms-min.css">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
 		<link rel="stylesheet" href="css/style.css">
-	
+		
+		
+		
 		<script src="js/modernizr-2.6.2.min.js"></script>
 		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-		
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+		<script type="text/javascript" src="js/responsivemobilemenu.js"></script>
+				
 	</head>
 	
 		<body>
@@ -27,9 +34,10 @@
 			
 				
 				<header class="grid_12">
-					<img id="logo" class="grid_3" src="images/logo.png" alt="SSR Motorsports" />
+					
+			      <img id="logo" class="grid_3" src="images/logo.png" alt="SSR Motorsports" />
+			      <div class="desktopnavigation" id="cssmenu">
 			      
-			      <div id="cssmenu">
 			      
 			      		<ul>
 			      			<li><a href="index.html">SSR</a></li>
@@ -43,43 +51,51 @@
 			    
 			    </div>
 			    
+			    <!--Mobile Menu -->
+			    
+			    	 <div class="rmm" data-menu-style="minimal">
+			    	        <ul>
+			    	            <li><a href="index.html">SSR</a></li>
+			    	            <li><a href="dirtbikes.html">Dirt Bikes</a></li>
+			    	            <li><a href="events.html">Events</a></li>
+			    	            <li><a href="warranty.html">Warranty</a></li>
+			    	            <li><a href="dealers.html">Online Dealers</a></li>
+			    	            <li><a href="contact.html">Contact Us</a></li>
+			    	       </ul>
+			    	</div>							    
+			    
 			    </header>
 					
 					
 		  
 	
 	<article>
-	
-	<img id="mainimage" class="grid_12" src="images/events.jpg" alt="SR250" />
-	
+	<div id="mainimage">
+	<img id="ssrhome" class="grid_12" src="images/events.jpg" alt="SR250" />
+	</div>
 	</article>
-	
-	<aside id="1aside" class="grid_3">
-	
-	
-	<!--<div id="main news">
-	<h3>MX News</h3>
-	
-	<img src="images/rightad.jpg" alt="Lucas Oil" />
-	
-	<ul id="homenews">
-		<li>Jeremy Martin - Named 2013 MX Rookie</li>
-		<li>Ryan Villopoto - Eli Tomac Emerge Victoriously</li>
-		<li>Blake Baggett - Wins 250 Moto2 at Lake Elsinore</li>
-		<li>Ryan Villiopoto- Finishes with a Sweep</li>
-		<li>Ken Roczen - Snaps Tomac's Streak</li>
-	
-	</ul>
-	
-	</div>-->
-	
+
 		
 	</aside>
+			
 	
-	
-				<footer class="grid_12">
-				<h5 class="grid_7">SSR Motorsports &copy; 2002-2013 SSRMotorsports.com All Rights Reserved</h5>
 				
+				<footer class="grid_12">
+				<div id="dealerhome" class="grid_12"> 
+				
+				
+						
+						<div id="dealer1" class="grid_7">
+						<h3>Now accepting all USA &amp Canada Dealer Applications</h3>
+						<p>Are you interested in becoming a SSR Dealer? We Strive daily to adapt our products to our riders needs.If your located in the United States and would like to be considered for our dealer program simply fill out our form and a SSR rep will be with you shortly. Thanks!</p>
+						</div>
+						
+						<div id="apply" class="grid_3">
+						<button type="submit" class="pure-button pure-button-primary">Dealer Apply</button>
+						</div>
+						<div id="login" class="grid_3">
+						<button type="submit" class="pure-button pure-button-primary">Dealer Login</button>
+						</div>
 				<div class="grid_4">
 				<ul class="footer_social">
 					<li><img src="images/facebook.png" alt="Face Book"/></li>
@@ -89,6 +105,12 @@
 					<li><img src="images/Tube.png" alt="Tube"/></li>	
 				</ul>
 				</div>
+					
+				
+				</div>
+				<h5 class="grid_8">SSR Motorsports &copy; 2002-2015 SSRMotorsports.com All Rights Reserved by Meister</h5>
+				
+				
 				</footer>
 	
 			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>

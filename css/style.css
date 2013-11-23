@@ -9,27 +9,39 @@ Copyright 2013, Josh Cope
 
 
    html{
-   	margin: 0 auto;
-   	padding: .5em;
+   	margin: 1.5em auto;  
+   	padding: .5em; 	
+   	background: url('../images/carbon-home.png') no-repeat;
+   	background-position: center top;
    }
    
+  
    
-   
-   
-   body {
+   body{
    	
-   	margin: 0 auto;
-   	padding: 0;
- 	height: auto;
- 	background-color: white;
+   		font-size: 100%;
+   		line-height: 1.6875;
+   		margin: 0 auto;
+   		padding:0;
+ 		height: auto;
+ 		
    	}
+   	
+   	
+   	
+   	
    	
    	p, h1, h2, h3, h4, h5{
    		text-align: justify;
    		font-family: "Helvetica Neue bold", Arial;
    		color: #000;
+   		
    	}
    	
+   	h3{
+   		
+   		font-size: 1.1em;
+   	}
    	
    	#logo{
    		float: left;
@@ -68,8 +80,9 @@ Copyright 2013, Josh Cope
   }
   #cssmenu {
     height: 70px;
-    background-color: #232323;
+    background: url('../images/carbon-bg.png') repeat;
     width: auto;
+    margin-top: .1em;
     margin-bottom: 2em;
   }
   #cssmenu > ul > li {
@@ -109,7 +122,7 @@ Copyright 2013, Josh Cope
   }
   #cssmenu ul ul a {
     color: #323232;
-    font-family: Verdana, 'Lucida Grande';
+    font-family: 'Helvetica Neue', 'Lucida Grande';
     font-size: 13px;
     background-color: #fafafa;
     padding: 5px 8px 7px 16px;
@@ -125,22 +138,31 @@ Copyright 2013, Josh Cope
     color: #f0f0f0;
   }
   
+  
+  .rmm{
+  	
+  		display: none;
+  }
+  
   /* =============================================================================
      Footer Styles
      ========================================================================== */
   
   
   footer{
-  	margin: 1em auto;
-  	padding: .35em;
- 	  }
-
+    margin: .5em auto;
+  	padding: 0;
+  	height: 225px;
+  	/*background: url('../images/footerbkg.png') no-repeat;*/
+  	 	  }
+  	 	  
+  
 	.footer_social li{
 	margin: 0 auto;
-	padding: .35em;
+	padding: .5em;
 	list-style-type: none;
 	display: inline;
-	float: right;	
+	float: right;
 }
 
 
@@ -158,34 +180,81 @@ Copyright 2013, Josh Cope
    
    
    #mainimage{
-   	margin: 1em auto;
-   	padding: .5em;
+   		margin: .5em auto;
+   		width: 996px;
+  
    }
    
+   #mainimage img{
+   	
+   		border: 0px solid #fff;
+   }
+  
    article{
-   	clear: both;
+   		
+   		clear: both;
+   }
+   
+   aside{
+  	 	margin: 0 auto;
+   		   }
+   
+   #dealer1{
+   		
+   		margin: 0 auto;
+   		padding: .5em;
+   		border-top: 3px solid #eee;
+   		border-bottom: 3px solid #eee;
+   }
+   
+   #dealerhome #login, #dealerhome #apply{
+   		margin: .5em auto;
+   		padding: .5em;
+   		float: right;
+   		
    }
  
  /* ============================================================================
    	dirtbikes.html Home Page Styles
     ========================================================================== */
-   
+   #db h1{
+   	margin: 0 auto;
+   	padding-left: 3px;
+   	background: url('../images/carbon-bg.png') repeat;
+   	color: red;
+   	overflow: hidden;
+   }
   
+   #dirtbike_gallery, #lineup{
+   	
+   		margin: .5em auto;
+		padding: .5em;
+		border: 1px solid #fff;
+   }
    
    #dirtbike_gallery ul{
-   		list-style-type: none;
-		float: left;
+   		width: 100%;
+   		margin: 0 auto;
+   		padding: 0;   		
    }
    
    #dirtbike_gallery li{
-   		margin: 0 auto;
-   		display: inline;
+   	margin: 0 auto;
+   	list-style-type: none;
+   	display: inline;
+
    }
    
+   #dirtbike_gallery img{
+   	max-width: 50%;
+   }
    
    #philosophy{
    		
-   		background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
+   		margin: 0 auto;
+   		border: 0px solid #fff;
+   		padding: .5em;'
+   		clear: both;
    }
    
    #philosophy h3{
@@ -193,61 +262,66 @@ Copyright 2013, Josh Cope
    		color: blue;
    }
    
+   aside img{
+   	
+   	margin: .5em auto;
+   	padding: .5em;
+   	border: 1px solid #fff;
+   }
+   
    
  /* ============================================================================
     events.html Home Page Styles
     ========================================================================== */
-   #powersports{
-   		display: inline-block;
+   section{
+   	margin: 0 auto;
+   	padding-bottom: 1em;
+   	
+   	background: #fff;
    }
    
-   #powersports img{
+   
+   #powersports, #minimoto, #asd{
+   	margin-bottom: .7em;
+   }
+   
+   article h3{
+   	margin: 0 auto;
+   	padding-left: 3px;
+   	background: url('../images/carbon-bg.png') repeat;
+   	color: #ea3105;
+   	overflow: hidden;
+   }
+   
+   #powersports ul, #minimoto ul, #asd ul{
    		margin: 0 auto;
-   		padding: .5em;
-   		display: inline;
+   		padding: 0;
+   }
+   
+   #powersports li, #minimoto li, #asd li{
+  		width: 100%;
+  		padding: 0;
+  		list-style-type: none;
+  		display: inline;
+   		
+   }
+   
+   #powersports img, #minimoto img, #asd img{
+   		margin: 0 auto;
+   		padding: .4em;
    		float: left;
    		max-width: 30%;
   
    }
    
-   #minimoto{
-   	clear: both;
-   	display: inline-block;
-   }
-   #powersports li, #minimoto li, #asd li{
-   	
-   	list-style-type: none;
-   }
-   
-   #minimoto img{
-   		margin: 0 auto;
-   		padding: .5em;
-   		display: inline;
-   		float: left;
-   		max-width: 30%;
-   }	
-   
-   
    #eventads img{
    	margin: 0 auto;
    	padding: .5em;
-   	
+   	padding-bottom: .5em; 	
    	float: right;
    }
    
    
-   #asd{
-   	clear: both;
-   	display: inline-block;
-   }
-   
-   #asd img{
-   		margin: 0 auto;
-   		padding: .5em;
-   		display: inline;
-   		float: left;
-   		max-width: 30%;
-   }
    
    .pure-paginator{
    		clear: both;
@@ -264,7 +338,19 @@ Copyright 2013, Josh Cope
     warranty.html Home Page Styles
     ========================================================================== */
  
- 
+#warrantyarticles{
+	margin: 0 auto;
+	padding: 0;
+	background: #fff;
+}
+
+
+#warrantyarticles h1, #warrantyarticles h4{
+	
+	border-bottom: 1px solid #eee;
+}
+
+
  #vor{
  	clear: left;
  }
@@ -285,78 +371,50 @@ Copyright 2013, Josh Cope
 
 #dealersrow img{
 	
-	margin: 3em auto;
+	margin: .5em auto;
 	padding: .5em;
+	max-width: 80%;
+	
 	
 }
 
 #becomeadealer{
 	margin: 0 auto;
-	padding: 2em;
+	padding: 1em;
+	display: inline-table;
 	
 }
 
 #becomeadealer button{
             color: white;
             background: rgb(66, 184, 221); /* this is a light blue */
+    
             }
  /* ============================================================================
     contact.html Home Page Styles
     ========================================================================== */   
     
+    #dsignup img{
+    	
+    	margin: 0 auto;
+    	margin-bottom: .5em;
+    	border: 1px solid #fff;
+    }
     
     #contactads img{
     	margin: 0 auto;
-    	padding: .5em;
-    	max-width: 80%;
+    	padding: 0;
+    	max-width: 100%;
+    	margin-bottom: .7em;
+    	border: 1px solid #fff;
     }
-    
-    #hours{
-    	margin: 0 auto;
-    	padding: .5em;
-    	background: #eeeeee;
-    }
-    
-    #hours h2{
-    	
-    	margin: 0 auto;
-    	padding: .5em;
-    	color: blue;
-    }
-.details{
-	
-	margin: auto;
-	padding: .5em;
-	clear: both;
-}
-
-.details li{
-	
-	list-style-type: none;
-}
-
-#mailing{
-	float: left;
-}
-
-.shipping{
-float: right;
-	
-}
-
-.details_address li{
-	list-style-type: none;
-}
-.shipping li{
-	
-	list-style-type: none;
-}
-
+   
 
 form{
 	
-	margin: auto;
+	margin: 0 auto;
 	padding: .5em;
+	background: #fff;
 }
 
 
@@ -371,18 +429,49 @@ form{
    ========================================================================== */
 
 
-/* Tablet Portrait size to Base 996px
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+/* Tablet Portrait size to Base 996px*/
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	
+	html{background: none;}
+	.desktopnavigation{display: none;}
+	.rmm{ display: block; float: right}
+	
+	#dirtbikegallery{float: left;}
+	#powersports li{ clear: both;}
+	#becomeadealer button{clear: both;}
+	footer background-image{ display: none;}	
+		
+}
 
-/* All Mobile Sizes 
-@media only screen and (max-width: 767px) {}
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+	html{background: none;}
+	.desktopnavigation{display: none;}
+	.rmm{ display: block; margin: 0 auto;}
+	background{color: green;}	
+}
 
-/* Mobile Landscape Size to Tablet Portrait 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	html{background: none;}
+	.desktopnavigation{display: none;}
+	.rmm{ display: block; width:100%;}
+	background{color: blue;}
 
-/* Mobile Portrait Size to Mobile Landscape Size 
-@media only screen and (max-width: 479px) {}
-*/
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size*/ 
+@media only screen and (max-width: 479px) {
+	html{background: none;}
+	#philosophy{ clear: both;}
+	.rmm{display: block; width:100%;}
+	.desktopnavigation{display: none;}
+	#powersports li, img{ clear: both;}
+	background{display: none;}
+	
+}
 
 
 /* =============================================================================

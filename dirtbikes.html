@@ -4,32 +4,39 @@
 		<meta charset="utf-8">
 	
 		<title>SSR Motorsports | Dirt Bikes</title>
-		<meta name="description" content="">
-		<meta name="author" content="">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+		<meta name="Otto Burorughs" content="SSR Motorsport Template">
 	
-		<meta name="viewport" content="width=device-width">
 	
-		<!-- Style Links -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/responsivemobilemenu.css" type="text/css"/>
 		<link rel="stylesheet" href="css/style.css">
-	     
-	     
-	    <!-- Scripts -->
+		
+		
+		
 		<script src="js/modernizr-2.6.2.min.js"></script>
 		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-		
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+		<script type="text/javascript" src="js/responsivemobilemenu.js"></script>
+				
 	</head>
-	<body>
-			<div class="container">
 	
+		<body>
+		<div id="menubanner"></div>
+		
+			<div class="container">
+	 
 			
 				
 				<header class="grid_12">
-					<img id="logo" class="grid_3" src="images/logo.png" alt="SSR Motorsports" />
+					
+			      <img id="logo" class="grid_3" src="images/logo.png" alt="SSR Motorsports" />
+			      <div class="desktopnavigation" id="cssmenu">
 			      
-			      <div id='cssmenu'>
+			      
 			      		<ul>
 			      			<li><a href="index.html">SSR</a></li>
 			      			<li><a href="dirtbikes.html">Dirt Bikes</a></li>
@@ -38,37 +45,55 @@
 			      			<li><a href="dealers.html">Online Dealers</a></li>
 			      			<li><a href="contact.html">Contact Us</a></li>
 			      	</ul>
-			     </div>
-			   
+			 
+			    
+			    </div>
+			    
+			    <!--Mobile Menu -->
+			    
+			    	 <div class="rmm" data-menu-style="minimal">
+			    	        <ul>
+			    	            <li><a href="index.html">SSR</a></li>
+			    	            <li><a href="dirtbikes.html">Dirt Bikes</a></li>
+			    	            <li><a href="events.html">Events</a></li>
+			    	            <li><a href="warranty.html">Warranty</a></li>
+			    	            <li><a href="dealers.html">Online Dealers</a></li>
+			    	            <li><a href="contact.html">Contact Us</a></li>
+			    	       </ul>
+			    	</div>							    
+			    
 			    </header>			
 	
-	<div id="philosophy" class="grid_12"><h3>You need to ride. You need to keep your ride safe from damaging natural elements.</h3></div>
-	<article id="db" class="grid_9 alpha">
+	<div id="philosophy" class="grid_12"><img src="images/dirtbikead.png" alt="SSR Holiday Specials" /></div>
 	
-		<h1>2014 Line Up</h1>
+	
+	<article id="db" class="grid_8 alpha">
+	
+		<div id="lineup" class="grid_8">	
 		<img src="images/vidimage.jpg" alt="" />
-	
+	</div>
 	    
-	   <div id="dirtbike_gallery" class="grid_10">
+	   <div id="dirtbike_gallery" class="grid_8">
 	   <h1>Pit Bikes</h1>
 	    <ul>
-	    	<li><img src="images/70thumb.jpg" alt="SSR Motorsports 70cc" /></li>
+
 			<li><img src="images/sr125.jpg" alt="SSR Motorsports 125cc" /></li>
 			<li><img src="images/sr160.jpg" alt="SSR Motorsports 140cc" /></li>
+			<li><img src="images/sr125.jpg" alt="SSR Motorsports 125cc" /></li>
 			
 		</ul>
 	   
 	   </div>
 	   
 	   	       
-	      <div id="dirtbike_gallery" class="grid_10">
+	      <div id="dirtbike_gallery" class="grid_8">
 	      <h1>Dirt Bikes</h1>
 	       		<ul>
 	   				<li><img src="images/sr250r-sm.jpg" alt="SSR Motorsports 70cc" /></li>
 	   			</ul>
 	   	  </div>
 	   	  
-	   	  <div id="dirtbike_gallery" class="grid_10">
+	   	  <div id="dirtbike_gallery" class="grid_8">
 	   	  <h1>ATV's</h1>
 	   	   		<ul>
 	   	  				<li><img src="images/SRQ110p_thumb.jpg" alt="SSR Motorsports 70cc" /></li>
@@ -77,7 +102,7 @@
 	   	  			</ul>
 	   	  	  </div>
 	   	  	  
-	   	  	  <div id="dirtbike_gallery" class="grid_10">
+	   	  	  <div id="dirtbike_gallery" class="grid_8">
 	   	  	  <h1>UTV's</h1>
 	   	  	   		<ul>
 	   	  	  				<li><img src="images/500utv-thumb.jpg" alt="SSR 500 UTV" /></li>
@@ -85,20 +110,19 @@
 	   	  	  			</ul>
 	   	  	  	  </div>
 	   	  	  	  
-	   	  	  	  <div id="dirtbike_gallery" class="grid_10">
+	   	  	  	  <div id="dirtbike_gallery" class="grid_8">
 	   	  	  	  <h1>Enduros</h1>
 	   	  	  	   		<ul>
-	   	  	  	  				<li><img src="images/xf200white.jpg" alt="Xf 200 White Dirt Bike" /></li>
-	   	  	  	  				<li><img src="images/xf250black.jpg" alt="Xf 200 Black Dirt Bike" /></li>
+	   	  	  	  				<li><img src="images/xf200white.png" alt="Xf 200 White Dirt Bike" /></li>
+	   	  	  	  				<li><img src="images/xf250black.png" alt="Xf 200 Black Dirt Bike" /></li>
 	   	  	  	  			</ul>
 	   	  	  	  	  </div>
 	
 	</article>
 	
-			<aside class="grid_3 omega">
+			<aside class="grid_4">
 			
-			<h1>Sponsors</h1>
-			
+		
 			<img src="images/rightad8.jpg" alt="The Only Protection she relies on" />
 			<img src="images/rightad7.jpg" alt="The Only Protection she relies on" />
 			<img src="images/motomodel.jpg" alt="The Only Protection she relies on" />
