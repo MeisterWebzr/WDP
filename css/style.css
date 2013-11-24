@@ -1,3 +1,5 @@
+/*SSR Motorsports ReDesign by Otto Burroughs*/
+
 /*
 Responsive 996px grid system ~ Style CSS.
 Copyright 2013, Josh Cope
@@ -153,6 +155,7 @@ Copyright 2013, Josh Cope
     margin: .5em auto;
   	padding: 0;
   	height: 225px;
+    border-top: 10px solid silver;
   	/*background: url('../images/footerbkg.png') no-repeat;*/
   	 	  }
   	 	  
@@ -257,11 +260,6 @@ Copyright 2013, Josh Cope
    		clear: both;
    }
    
-   #philosophy h3{
-   		text-align: center;
-   		color: blue;
-   }
-   
    aside img{
    	
    	margin: .5em auto;
@@ -273,9 +271,6 @@ Copyright 2013, Josh Cope
  /* ============================================================================
     events.html Home Page Styles
     ========================================================================== */
-   section{
-   	margin: 0 auto;
-   	padding-bottom: 1em;
    	
    	background: #fff;
    }
@@ -283,6 +278,7 @@ Copyright 2013, Josh Cope
    
    #powersports, #minimoto, #asd{
    	margin-bottom: .7em;
+    padding-bottom: 2em;
    }
    
    article h3{
@@ -308,9 +304,10 @@ Copyright 2013, Josh Cope
    
    #powersports img, #minimoto img, #asd img{
    		margin: 0 auto;
-   		padding: .4em;
+   		padding: .2em;
    		float: left;
-   		max-width: 30%;
+      height: 180px;
+      width: auto;
   
    }
    
@@ -318,6 +315,7 @@ Copyright 2013, Josh Cope
    	margin: 0 auto;
    	padding: .5em;
    	padding-bottom: .5em; 	
+
    	float: right;
    }
    
@@ -332,36 +330,61 @@ Copyright 2013, Josh Cope
    #itunes{
    	margin: 3em auto;
    	padding: .5em;
+
    }
    
  /* ============================================================================
     warranty.html Home Page Styles
     ========================================================================== */
  
-#warrantyarticles{
-	margin: 0 auto;
-	padding: 0;
-	background: #fff;
+    #wdim{
+      
+      margin: 0 auto;
+      text-align: justify;
+      padding: 2em;
+          }
+
+    #wdim h1{
+      color: red; 
+}
+
+#factorylimited p{
+    color: white;
+}
+
+  #factorylimited h1{
+    font-size: 1em;
+  }
+
+    #factorylimited{
+      margin: 0 auto;
+      padding: 3em;
+}
+
+  #factorylimited h1{
+      color: red;
+      text-align: justify;
+  }
+
+    #warrantyarticles h1, #warrantyarticles h4{
+	     border-bottom: 1px solid #eee;
 }
 
 
-#warrantyarticles h1, #warrantyarticles h4{
-	
-	border-bottom: 1px solid #eee;
-}
-
-
- #vor{
- 	clear: left;
+    #vor{
+ 	    clear: left;
  }
  
  
- #drb{
- 	float: right;
- 	margin: 0 auto;
- 	padding: 6em;
+    #drb{
+    	float: right;
+ 	    margin: 0 auto;
+ 	    padding: 6em;
+      border: 1px solid purple;
  }
  
+
+
  
  
  /* ============================================================================
@@ -435,10 +458,11 @@ form{
 	html{background: none;}
 	.desktopnavigation{display: none;}
 	.rmm{ display: block; float: right}
-	
 	#dirtbikegallery{float: left;}
 	#powersports li{ clear: both;}
 	#becomeadealer button{clear: both;}
+   #wdim, #factorylimited{clear: both;}
+  #factorylimited p{color: black}
 	footer background-image{ display: none;}	
 		
 }
@@ -448,15 +472,21 @@ form{
 	html{background: none;}
 	.desktopnavigation{display: none;}
 	.rmm{ display: block; margin: 0 auto;}
-	background{color: green;}	
+  #philosophy{ clear: both;}
+   #wdim, #factorylimited{clear: both;}
+  #factorylimited p{color: black}
+	
 }
 
 /* Mobile Landscape Size to Tablet Portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	html{background: none;}
+  #philosophy{ clear: both;}
 	.desktopnavigation{display: none;}
 	.rmm{ display: block; width:100%;}
-	background{color: blue;}
+  #wdim, #factorylimited{clear: both;}
+  #factorylimited p{color: black}
+	
 
 
 
@@ -465,10 +495,19 @@ form{
 /* Mobile Portrait Size to Mobile Landscape Size*/ 
 @media only screen and (max-width: 479px) {
 	html{background: none;}
-	#philosophy{ clear: both;}
+	#db{margin: 0 auto; padding: 0; clear: both;}
+  #asidedb{ margin: 0 auto; padding: 0;}
+  #philosophy img{ clear: both;}
 	.rmm{display: block; width:100%;}
 	.desktopnavigation{display: none;}
+  #powersports, #minimoto, #asd{ margin: 0 auto; padding-bottom: .5em;}
 	#powersports li, img{ clear: both;}
+  #powersports img, #minimoto img, #asd img{ width: 100%; height: auto; margin: 0 auto; padding: .1em; clear: both;}
+  #wdim, #factorylimited{  padding: 1em; clear: both;}
+  #wdim ul{ list-style-type: none; float: left;}
+  #wdim ul p{ margin: 0 auto; padding: .5em;}
+  #factorylimited p{color: black}
+
 	background{display: none;}
 	
 }
