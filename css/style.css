@@ -25,7 +25,7 @@ Copyright 2013, Josh Cope
    		line-height: 1.6875;
    		margin: 0 auto;
    		padding:0;
- 		height: auto;
+ 		 height: auto;
  		
    	}
    	
@@ -421,7 +421,6 @@ Copyright 2013, Josh Cope
     	
     	margin: 0 auto;
     	margin-bottom: .5em;
-    	border: 1px solid #fff;
     }
     
     #contactads img{
@@ -495,6 +494,7 @@ form{
 /* Mobile Portrait Size to Mobile Landscape Size*/ 
 @media only screen and (max-width: 479px) {
 	html{background: none;}
+  #apply, #login{ border: 1px dotted green; margin: 0 auto; padding: 0; clear: both;}
 	#db{margin: 0 auto; padding: 0; clear: both;}
   #asidedb{ margin: 0 auto; padding: 0;}
   #philosophy img{ clear: both;}
@@ -508,7 +508,7 @@ form{
   #wdim ul p{ margin: 0 auto; padding: .5em;}
   #factorylimited p{color: black}
 
-	background{display: none;}
+ 	
 	
 }
 
